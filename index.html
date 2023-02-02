@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Clientes</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -17,15 +18,15 @@
            </div>
        
        
-           <form class="formularioCadastroUsuario">
+           <form class="formularioCadastroUsuario" id="formularioCadastroUsuario">
                <div class="entrada">
                 <label for="nome">* Nome</label>
-                <input id="nome" type="text">
+                <input placeholder="Insira o nome" id="nome" type="text">
                </div>
        
                <div class="entrada">
                 <label for="email">E-mail</label>
-                <input id="email" type="text">
+                <input placeholder="Insira o e-mail" id="email" type="text">
                </div>
                <button>
                    <img src="img/create.png">

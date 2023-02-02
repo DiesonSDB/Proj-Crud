@@ -20,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    gap: 20px;
 }
 
 .LogoUsuario {
@@ -35,7 +36,9 @@ h1 {
 .formularioCadastroUsuario {
     display: flex;
     justify-content:space-between;
-    gap: 30px
+    gap: 30px;
+    margin-top: 50px
+
 }
 
 .formularioCadastroUsuario input {
@@ -45,6 +48,13 @@ h1 {
     padding: 5px;
     width: 100%;
 }
+
+.formularioCadastroUsuario input:hover,
+.formularioCadastroUsuario input:focus {
+    border: 2px solid #204BCF;
+    outline: none;
+}
+
 .formularioCadastroUsuario .entrada {
     width: 100%;
 }
@@ -57,4 +67,5 @@ h1 {
     border: none;
     background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
+    margin-top: 12px;
 }
