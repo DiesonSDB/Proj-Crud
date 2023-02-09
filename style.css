@@ -1,5 +1,4 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +11,6 @@ body {
 
 .container {
     margin: 0 20%;
-
 }
 
 .headerCadastro {
@@ -20,25 +18,25 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     gap: 20px;
 }
 
-.LogoUsuario {
+.imagemDoUsuario {
     width: 60px;
     height: 60px;
 }
 
 h1 {
-   font-size: 48px;
-   color: #204BCF
+    font-size: 48px;
+    color: #204BCF;
 }
 
 .formularioCadastroUsuario {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     gap: 30px;
-    margin-top: 50px
-
+    margin-top: 30px;
 }
 
 .formularioCadastroUsuario input {
@@ -55,17 +53,24 @@ h1 {
     outline: none;
 }
 
+.formularioCadastroUsuario button img {
+    width: 50px;
+    height: 50px;
+}
+
+.formularioCadastroUsuario button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    margin-top: 12px;
+}
+
 .formularioCadastroUsuario .entrada {
     width: 100%;
 }
-.formularioCadastroUsuario button img{
-    width: 50px;
-    height: 50px;
 
-}
-.formularioCadastroUsuario button {  
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
-    margin-top: 12px;
+
+.campoObrigatorio, .mensagensDeErro {
+    color: red;
+    display: none;
 }
